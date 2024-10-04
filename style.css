@@ -13,7 +13,7 @@ body {
     font-family: "Hanken Grotesk", sans-serif;
 }
 
-.test-card-container {
+.summary-card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     box-shadow: 5px 5px 10px rgb(238, 238, 238);
 }
 
-.card-left {
+.summary-card-left {
     width: 200px;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 95%);
     border-radius: 16px;
@@ -32,14 +32,15 @@ body {
     align-items: center;
     justify-content: center;
     gap: 12px;
+    text-align: center;
 }
 
-.title {
+.summary-card-title {
     font-size: 12px;
     color: hsl(241, 100%, 89%);
 }
 
-.result {
+.summary-card-circle {
     width: 110px;
     height: 110px;
     display: flex;
@@ -51,7 +52,7 @@ body {
     padding: 18px;
 }
 
-.card-left-footer {
+.summary-card-left-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,28 +60,28 @@ body {
     gap: 8px;
 }
 
-.card-left-footer h4 {
+.summary-card-left-footer h4 {
     color: hsl(0, 0%, 100%);
 }
 
-.card-left-footer p {
+.summary-card-left-footer p {
     font-size: 10px;
     color: hsl(241, 100%, 89%);
     text-align: center;
 }
 
-.result span:nth-child(1) {
+.summary-card-circle span:nth-child(1) {
     font-size: 40px;
     font-weight: 800;
     color: white;
 }
 
-.result span:nth-child(2) {
+.summary-card-circle span:nth-child(2) {
     font-size: 8px;
     color: hsl(241, 100%, 89%);
 }
 
-.card-right {
+.summary-card-right {
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -88,12 +89,12 @@ body {
     padding: 12px 24px 20px 10px;
 }
 
-.card-right h5 {
+.summary-card-right h5 {
     font-size: 13px;
     font-weight: 700;
 }
 
-.card-right-main {
+.summary-card-right-main {
     display: flex;
     flex-direction: column;
     gap: 8px;

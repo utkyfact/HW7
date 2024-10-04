@@ -1,18 +1,18 @@
 const categoryStyles = {
   "Reaction": {
-    backgroundColor: "hsl(0, 100%, 67%, 3%)",
+    backgroundColor: "hsl(0, 100%, 67%, 5%)",
     textColor: "hsl(0, 100%, 67%)"
   },
   "Memory": {
-    backgroundColor: "hsl(39, 100%, 56%, 3%)",
+    backgroundColor: "hsl(39, 100%, 56%, 5%)",
     textColor: "hsl(39, 100%, 56%)"
   },
   "Verbal": {
-    backgroundColor: "hsl(166, 100%, 37%, 3%)",
+    backgroundColor: "hsl(166, 100%, 37%, 5%)",
     textColor: "hsl(166, 100%, 37%)"
   },
   "Visual": {
-    backgroundColor: "hsl(234, 85%, 45%, 3%)",
+    backgroundColor: "hsl(234, 85%, 45%, 5%)",
     textColor: "hsl(234, 85%, 45%)"
   }
 };
