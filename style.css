@@ -157,31 +157,31 @@ button:hover {
         display: block;
     }
 
-    .test-card-container {
+    .summary-card-container {
         flex-direction: column;
     }
 
-    .card-left {
+    .summary-card-left {
         width: 100%;
         padding: 40px 50px;
         border-radius: 0px 0px 16px 16px;
     }
 
-    .card-left-footer {
+    .summary-card-left-footer {
         padding: 0px 18px;
     }
  
-    .card-left-footer p {
+    .summary-card-left-footer p {
         font-size: 14px;
 
     }
 
-    .card-right {
+    .summary-card-right {
         width: 100%;
         padding: 30px;
     }
 
-    .card-right h5 {
+    .summary-card-right h5 {
         font-size: 16px;
     }
 
